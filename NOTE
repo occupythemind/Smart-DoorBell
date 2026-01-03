@@ -1,0 +1,7 @@
+THIS IS A PROTOTYPE OF THE SMART DOOR BELL. THE ORIGINAL IS MEANT TO BE IMPLEMENTED WITH THEIR RESPECTIVE HARDWARE.
+
+Google has not yet uploaded a pre-built "wheel" for tflite-runtime for the newer versions of python (eg. 3.12+) to the main Python repository (PyPI). So, we would be using the full.
+
+Since I am on a laptop (PC) right now, I have plenty of power and storage. Instead of using the tiny tflite-runtime, I will install the full TensorFlow library. It includes the TFLite interpreter and is much easier to install on newer Linux versions.
+
+Now, for the raspberry PI, we would be using a older version of python3 so as to achieve tflite-runtime. The tflite-runtime id preferred for raspberry Pi because it's small size suites raspberry low memory. And raspberry board uses a more stable version of python3 (ie. 3.7 or 3.11) that pip supports perfectly.
