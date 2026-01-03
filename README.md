@@ -2,17 +2,15 @@
 Smart DoorBell is a smart vision-based system that detects whether someone is at your door.
 When a person is detected, the system triggers an alarm (doorbell).
 
-## 📦 Requirements
-- Python 3
-- Webcam / Camera module
-- Virtual environment support (venv)
+## 📐👷🏻‍♀️ Architectural Design
+![Smart Doorbell Setup](design/architecture-design-transparent.png)
 
 ## 🚀 Installation
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone <your-repo-url>
-cd SMART-DOORBELL
+git clone https://github.com/occupythemind/Smart-DoorBell.git
+cd Smart-DoorBell
 ```
 
 ### 2️⃣ Create & activate a virtual environment
