@@ -3,7 +3,7 @@ Smart DoorBell is a smart vision-based system that detects whether someone is at
 When a person is detected, the system triggers an alarm (doorbell).
 
 ## 📐👷🏻‍♀️ Architectural Design
-![Smart Doorbell Setup](design/architecture-design-transparent.png)
+![Smart Doorbell Setup](design/architecture-design.drawio.png)
 
 ## 🚀 Installation
 
